@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import {Prinicpal} from "./routes/Prinicpal";
 import {UsersPanel} from "./routes/UsersPanel";
 import {User} from "./components/User";
-import {ComponenteForm} from "./components/ComponenteForm";
 import {Inicio} from "./components/Inicio";
 import Informacion from "./components/Informacion";
 
