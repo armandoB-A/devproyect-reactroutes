@@ -5,6 +5,7 @@ import {UsersPanel} from "./routes/UsersPanel";
 import {User} from "./components/User";
 import {Inicio} from "./components/Inicio";
 import Informacion from "./components/Informacion";
+import {Inscripcion} from "./components/Inscripcion";
 
 const App = () => {
 
@@ -74,6 +75,9 @@ const App = () => {
                 </Route>
                 <Route path="informacion"
                        element={<div><Informacion
+                       /></div>}/>
+                <Route path="inscripcion"
+                       element={<div><Inscripcion
                        /></div>}/>
             </Route>
         </Routes>

@@ -27,6 +27,11 @@ export const Prinicpal = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link" href="/inscripcion/">
+                                    <h4>Inscripcion</h4>
+                                </a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="/informacion">
                                     <h4>Información</h4>
                                 </a>
